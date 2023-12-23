@@ -1,17 +1,18 @@
 import React from 'react'
 
 import DKCOC from '../assets/img/dkcoc.png'
-import HELIOS from '../assets/img/helios.png'
+import DOSTCOC from '../assets/img/dostcoc.jpg'
+import HELIOS from '../assets/img/helios.jpg'
 import IPLATE from '../assets/img/iplate.png'
 import PUPMAP from '../assets/img/pupmap.png'
 import TTT from '../assets/img/tictactoe.png'
 
 const Experience = () => {
   return (
-    <div name='experience' className='w-full md:h-fit text-white bg-black'>
+    <div name='experience' className='w-full md:h-fit dark:text-white dark:bg-black py-20'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-white border-white'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-4 border-black dark:text-white dark:border-white'>Experience</p>
                 <p className='py-6'>I have worked on the following projects...</p>
             </div>
 
@@ -19,7 +20,7 @@ const Experience = () => {
             <div
             className='rounded-lg grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
                 <div style={{backgroundImage:`url(${DKCOC})`}}
-                    className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/*hover*/}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
@@ -33,8 +34,18 @@ const Experience = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{backgroundImage:`url(${DOSTCOC})`}}
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/*hover*/}
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            On-the-Job Training 2
+                        </span>
+                    </div>
+                </div>
                 <div style={{backgroundImage:`url(${HELIOS})`}}
-                    className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/*hover*/}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
@@ -49,7 +60,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div style={{backgroundImage:`url(${IPLATE})`}}
-                    className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/*hover*/}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
@@ -64,7 +75,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div style={{backgroundImage:`url(${PUPMAP})`}}
-                    className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/*hover*/}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
@@ -82,7 +93,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div style={{backgroundImage:`url(${TTT})`}}
-                    className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    className='dark:shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/*hover*/}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
