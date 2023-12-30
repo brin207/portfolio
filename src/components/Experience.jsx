@@ -114,7 +114,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div style={{backgroundImage:`url(${LOGO2})`}}
-                        className='group container rounded-md flex justify-center items-center mx-auto content-div bg-[#4a3c26] dark:bg-[#d9cbb5]'>
+                        className='group container rounded-md flex justify-center items-center mx-auto content-div bg-[#4a3c26] dark:bg-[#d9cbb5] col-span-2 md:col-span-1'>
         
                         {/*hover*/}
                         <div className='text-center opacity-0 group-hover:opacity-100'>
@@ -134,17 +134,6 @@ const Experience = () => {
                 </div>
             </div>
         </div>
-        {/* <div className="grid auto-rows-[192px] grid-cols-3 gap-4 max-w-[1000px] mx-auto">
-        {[...Array(6)].map((_, i) => (
-            <div
-            key={i}
-            className={`group container flex justify-center items-center mx-auto content-div row-span-2 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${
-                i % 3 === 0 ? "col-span-2" : ""
-            }`}
-            style={{backgroundImage:`url(${PUPMAP})`}}
-            ></div>
-        ))}
-        </div> */}
     </div>
   )
 }
