@@ -24,7 +24,7 @@ function App() {
       <Home />
       <About />
       <Skills light={light} />
-      <Experience />
+      <Experience/>
       <Contact />
     </div>
   );

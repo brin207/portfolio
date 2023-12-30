@@ -2,11 +2,11 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-white text-black dark:bg-black dark:text-white'>
+    <div name='about' className='w-full h-screen bg-[#c6c0b8] text-[#4a3c26] dark:bg-[#474139] dark:text-[#d9cbb5]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
             <div className='sm:text-right pb-8 pl-4'>
-                <p className='text-4xl font-bold inline border-b-4 border-black dark:border-white'>
+                <p className='text-4xl font-bold inline border-b-4 border-[#4a3c26] dark:border-[#d9cbb5]'>
                     About
                 </p>
             </div>
@@ -15,7 +15,7 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8'>
             <div className='sm:text-right text-4xl font-bold'>
                 <p>
-                    I'm Bren Erjo L. Buan<br></br>and I am an aspiring <br></br>web developer.
+                    I'm <span className='bg-gradient-to-r from-[#be731e] to-[#474700] bg-clip-text text-transparent dark:from-[#e19741] dark:to-[#ffffb8]'>Bren Erjo L. Buan</span><br></br>and I am an aspiring <br></br>web developer.
                 </p>
             </div>
             <div>

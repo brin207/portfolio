@@ -17,12 +17,12 @@ import PUP from '../assets/img/pup.png'
 
 const Skills = ({light}) => {
   return (
-    <div name='skills' className='w-full h-fit bg-white text-black dark:bg-black dark:text-white py-4 pb-30'>
+    <div name='skills' className='w-full h-fit bg-[#c6c0b8] text-[#4a3c26] dark:bg-[#474139] dark:text-[#d9cbb5] py-4 pb-30'>
         <span> </span>
       {/*container*/}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-black dark:border-white'>Technologies</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#4a3c26] dark:border-[#d9cbb5]'>Technologies</p>
                 <p className='py-4'>I have experience using the following...</p>
             </div>
 
@@ -63,7 +63,7 @@ const Skills = ({light}) => {
 
             {/*Education*/}
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-black dark:border-white'>Education</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#4a3c26] dark:border-[#d9cbb5]'>Education</p>
                 <p className='py-4'>I have attended the following schools...</p>
             </div>
             <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center py-8'>

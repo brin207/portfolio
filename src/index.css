@@ -25,7 +25,32 @@
     background-image: 
     linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.8),
-        hsla(0, 0%, 50%, 0.8)
+        rgba(71, 65, 57, 0.8),
+        hsla(34, 11%, 75%, 0.8)
     )!important;
 }
+
+/* colors: { dark
+'text': '#d9cbb5',
+'background': '#474139',
+'primary': '#e19741',
+'secondary': '#db5e43', #74493c
+'accent': '#ffffb8',
+},
+*/
+
+/* colors: { light
+'text': '#4a3c26',
+'background': '#c6c0b8',
+'primary': '#be731e',
+'secondary': '#bc4024', #c3998b
+'accent': '#474700',
+},
+/* 
+
+--linearPrimarySecondary: linear-gradient(#e19741, #db5e43);
+--linearPrimaryAccent: linear-gradient(#e19741, #ffffb8);
+--linearSecondaryAccent: linear-gradient(#db5e43, #ffffb8);
+--radialPrimarySecondary: radial-gradient(#e19741, #db5e43);
+--radialPrimaryAccent: radial-gradient(#e19741, #ffffb8);
+--radialSecondaryAccent: radial-gradient(#db5e43, #ffffb8); */
