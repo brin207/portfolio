@@ -13,9 +13,9 @@ const NavBar = ({light, handleLight}) => {
 
   return (
     <div className='fixed w-full h-[80px] flex items-center px-4 bg-[#c6c0b8] text-[#4a3c26] dark:bg-[#474139] dark:text-[#d9cbb5]'>
-      <div>
+      <div> 
         <Link to="home" smooth={true} style={{cursor: "pointer"}}  duration={500}>
-            <img src={light ? LOGO2 : LOGO} alt="logo" className="m-5" style={{ width: "60px"}}/>
+            <img src={light ? LOGO2 : LOGO} alt="logo" className="m-5" style={{ width: "50px"}}/>
         </Link>
       </div>
 
